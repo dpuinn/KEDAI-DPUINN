@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Unik - Robusta, Kelomang & Boti</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-amber-800">TokoUnik.com</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#beranda" class="hover:text-amber-700">Beranda</a>
+                <a href="#produk" class="hover:text-amber-700">Produk</a>
+                <a href="#tentang" class="hover:text-amber-700">Tentang</a>
+                <a href="#kontak" class="hover:text-amber-700">Kontak</a>
+            </nav>
+            <a href="#produk" class="bg-amber-800 text-white px-4 py-2 rounded-lg hover:bg-amber-900 transition">Pesan Sekarang</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="bg-amber-900 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Temukan Produk Pilihan Terbaik Kami</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Dari Kopi Robusta pilihan, Kelomang peliharaan unik, hingga Boti berkualitas. Semuanya ada di sini!</p>
+            <a href="#produk" class="bg-amber-500 text-gray-900 font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-amber-400 transition">Lihat Katalog</a>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk" class="py-16 container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">Produk Unggulan</h2>
+            <p class="text-gray-600 mt-2">Pilih produk favorit Anda di bawah ini</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Produk 1: Kopi Robusta -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="[attachment_2](attachment)" alt="Kopi Robusta" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs bg-amber-100 text-amber-800 font-semibold px-2.5 py-0.5 rounded">Minuman</span>
+                        <h3 class="text-xl font-bold mt-2 mb-2">Kopi Robusta</h3>
+                        <p class="text-gray-600 text-sm mb-4">Kopi Robusta murni dengan cita rasa kuat, aroma khas, dan tingkat keasaman yang pas untuk menemani hari Anda.</p>
+                    </div>
+                </div>
+                <div class="px-6 pb-6 flex justify-between items-center">
+                    <span class="text-lg font-bold text-amber-800">Rp 45.000</span>
+                    <a href="https://wa.me/6285604779151?text=Halo,%20saya%20tertarik%20membeli%20Kopi%20Robusta" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">Beli via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Produk 2: Kelomang -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="[attachment_0](attachment)" alt="Kelomang" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs bg-blue-100 text-blue-800 font-semibold px-2.5 py-0.5 rounded">Hewan Peliharaan</span>
+                        <h3 class="text-xl font-bold mt-2 mb-2">Kelomang (Keong Laut/Darat)</h3>
+                        <p class="text-gray-600 text-sm mb-4">Kelomang aktif dan sehat, cocok dijadikan hewan peliharaan unik yang mudah dirawat di rumah.</p>
+                    </div>
+                </div>
+                <div class="px-6 pb-6 flex justify-between items-center">
+                    <span class="text-lg font-bold text-amber-800">Rp 15.000</span>
+                    <a href="https://wa.me/6285604779151?text=Halo,%20saya%20tertarik%20membeli%20Kelomang" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">Beli via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Produk 3: Boti -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="[attachment_1](attachment)" alt="Boti" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs bg-purple-100 text-purple-800 font-semibold px-2.5 py-0.5 rounded">Spesial</span>
+                        <h3 class="text-xl font-bold mt-2 mb-2">Boti Berkualitas</h3>
+                        <p class="text-gray-600 text-sm mb-4">Produk pilihan berkualitas tinggi yang siap memenuhi kebutuhan dan melengkapi koleksi Anda.</p>
+                    </div>
+                </div>
+                <div class="px-6 pb-6 flex justify-between items-center">
+                    <span class="text-lg font-bold text-amber-800">Rp 75.000</span>
+                    <a href="https://wa.me/6285604779151?text=Halo,%20saya%20tertarik%20membeli%20Boti" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition">Beli via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6 text-center max-w-2xl">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Tentang Toko Kami</h2>
+            <p class="text-gray-600 leading-relaxed">Kami menyediakan berbagai macam produk unik dan berkualitas mulai dari cita rasa kopi nusantara hingga hewan peliharaan dan produk pilihan lainnya dengan pelayanan cepat dan terpercaya.</p>
+        </div>
+    </section>
+
+    <!-- Footer / Kontak -->
+    <footer id="kontak" class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold mb-4">TokoUnik.com</h3>
+                <p class="text-gray-400 text-sm">Menyediakan produk pilihan terbaik untuk Anda.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-4">Hubungi Kami</h3>
+                <p class="text-gray-400 text-sm mb-2">WhatsApp: 0856-0477-9151</p>
+                <p class="text-gray-400 text-sm">Email: info@tokounik.com</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-4">Lokasi</h3>
+                <p class="text-gray-400 text-sm">Surabaya, Jawa Timur, Indonesia</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-sm">
+            &copy; 2026 TokoUnik.com. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
